@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'docuStore';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'DocuDig LLC.';
+		return 'DocuStore LLC.';
 	}
 
 	/**
@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return 'Your documents, anytime and anywhere!';
 	}
 
 	/**
@@ -113,7 +113,9 @@ class OC_Theme {
 	 * @return string logo claim
 	 */
 	public function getLogoClaim() {
-		return '<a href="https://www.ingeniousource.com">Custom Claim</a>';
+		/*
+		return '<a href="https://www.ingeniousource.com">Custom Claim</a>'; */
+		return '';
 	}
 
 	public function getPrivacyPolicyUrl() {
