@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://www.ingeniousource.com';
+		return 'https://ducustore.tratoregio.com';
 	}
 
 	/**
@@ -65,7 +65,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getDocBaseUrl() {
-		return 'https://doc.owncloud.org';
+		return 'https://docuStore.tratoregio.com';
 	}
 
 	/**
@@ -130,7 +130,7 @@ class OC_Theme {
 		try {
 			return \OC::$server->getConfig()->getAppValue('core', 'legal.imprint_url', '');
 		} catch (\Exception $e) {
-			return '';
+			turn '';
 		}
 	}
 
@@ -184,7 +184,7 @@ class OC_Theme {
 	 * @return string
 	 */
 	public function getMailHeaderColor() {
-		return '#745bca';
+		return '#21409a';
 	}
 
 }
