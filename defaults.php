@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://ducustore.tratoregio.com';
+		return 'https://docustore.tratoregio.com';
 	}
 
 	/**
@@ -130,7 +130,7 @@ class OC_Theme {
 		try {
 			return \OC::$server->getConfig()->getAppValue('core', 'legal.imprint_url', '');
 		} catch (\Exception $e) {
-			turn '';
+			return '';
 		}
 	}
 
