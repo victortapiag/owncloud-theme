@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud - Custom Claim';
+		return 'docuStore';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '<b>Custom</b> Cloud';
+		return '<b>docu</b>Store';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'DocuStore LLC.';
+		return 'DocuStore Service';
 	}
 
 	/**
